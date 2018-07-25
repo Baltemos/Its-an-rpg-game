@@ -11,7 +11,15 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\objTest</object>
+    <objects name="Solid">
+      <object>objects\objSolid</object>
+      <objects name="Entity">
+        <objects name="Player">
+          <object>objects\objTest</object>
+        </objects>
+        <object>objects\objEntity</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTest</room>
