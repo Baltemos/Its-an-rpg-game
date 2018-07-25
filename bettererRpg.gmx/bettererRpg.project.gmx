@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprTestEntity</sprite>
+    <sprite>sprites\sprTest1Sword</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -15,7 +16,12 @@
       <object>objects\objSolid</object>
       <objects name="Entity">
         <objects name="Player">
-          <object>objects\objTest</object>
+          <objects name="Character">
+            <object>objects\objPlayerChar</object>
+          </objects>
+          <objects name="Weapons">
+            <object>objects\obj1Sword</object>
+          </objects>
         </objects>
         <object>objects\objEntity</object>
       </objects>
